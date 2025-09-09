@@ -1,5 +1,5 @@
 # ABWR-Feed-Water-transient-FSAR-Compliant-
-This project models the loss of feedwater in an **Advanced Boiling Water Reactor (ABWR)** using data from the **Final Safety Analysis Report (FSAR)**.   The simulation demonstrates how feedwater flow affects reactor stability and safety.
+This project models the loss of feedwater in an **Advanced Boiling Water Reactor (ABWR)** using data from the **Final Safety Analysis Report (FSAR)**. The simulation demonstrates how feedwater flow affects reactor stability and safety.
 
 # ABWR Feedwater Simulation (FSAR Compliant)
 This project models the loss of feedwater in an **Advanced Boiling Water Reactor (ABWR)** using data from the **Final Safety Analysis Report (FSAR)**.  
@@ -17,6 +17,8 @@ The simulation demonstrates how feedwater flow affects reactor stability and saf
 - Matplotlib
 
 ## How to Run
-1. Clone the repository:
-   ```bash
+Clone the repository:
+```bash
    git clone https://github.com/mansurby/abwr-feedwater-simulation.git
+   pip install -r requirements.txt
+python ABWR_LOFW_FSAR_Compliant.py
